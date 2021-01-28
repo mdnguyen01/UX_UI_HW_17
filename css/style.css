@@ -1,0 +1,118 @@
+/* GENERAL */
+body {
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.about-li:hover {
+    color: #fd6327;
+}
+
+.skills-li:hover {
+    color: #fec2ca;
+}
+
+.work-li:hover {
+    color: #fdc300;
+}
+
+.studies-li:hover {
+    color: #C2CCD5;
+}
+
+.resume-li:hover {
+    color: #DFC800;
+}
+
+.contact-li:hover {
+    color: #FD9407;
+}
+
+/* HEADER */
+header {
+    background-color: #fdc300;
+}
+
+header img {
+    padding: 10px 5px;
+}
+
+#socials {
+    padding-right: 10px;
+}
+
+/* NAVIGATION */
+nav {
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-items: space-around;
+}
+
+nav ul {
+    margin-left: auto;
+    padding-right: 10px;
+}
+
+nav li {
+    padding: 0 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* HERO */
+.heroImg {
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+    height: 500px;
+    vertical-align: middle;
+}
+
+button {
+    background-color: white;
+    border: black solid 3px;
+    border-radius: 20px;
+    padding: 10px 0;
+    width: 150px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer li {
+    padding: 0 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#socials-footer {
+    padding-top: 10px;
+}
+
+footer img {
+    padding-right: 30px;
+}
